@@ -4,6 +4,7 @@
 // @version      1.1
 // @description  Скрывает элемент с !important стилями
 // @match        https://www.twitch.tv/*
+// @author       iW1ll
 // @grant        GM_addStyle
 // ==/UserScript==
 
