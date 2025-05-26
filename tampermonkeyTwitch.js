@@ -8,7 +8,7 @@
 // @grant        GM_addStyle
 // ==/UserScript==
 
-(function() {
+(() => {
     'use strict';
     console.log('Twitch Hide Element Started');
 
