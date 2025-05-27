@@ -23,7 +23,7 @@
 
     const observer = new MutationObserver(() => {
         document.querySelectorAll(targetSelector).forEach(element => {
-            if(getComputedStyle(element).display !== 'none') {
+            if (getComputedStyle(element).display !== 'none') {
                 element.style.setProperty('display', 'none', 'important');
                 element.style.setProperty('visibility', 'hidden', 'important');
             }
